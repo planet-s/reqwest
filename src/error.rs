@@ -324,7 +324,7 @@ where T: Into<Kind> {
     }
 }
 
-#[cfg(unix)]
+#[cfg(any(unix, target_os = "redox"))]
 fn io_timeout() -> io::Error {
     io::Error::new(io::ErrorKind::WouldBlock, "timed out")
 }
