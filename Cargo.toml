@@ -17,8 +17,8 @@ bytes = "0.4"
 encoding_rs = "0.7"
 futures = "0.1.21"
 http = "0.1.5"
-hyper = { git = "https://github.com/redox-os/hyper" }
-hyper-tls = { git = "https://github.com/redox-os/hyper-tls" }
+hyper = { git = "https://gitlab.redox-os.org/redox-os/hyper" }
+hyper-tls = { git = "https://gitlab.redox-os.org/redox-os/hyper-tls" }
 libflate = "0.1.11"
 log = "0.4"
 mime = "0.3.7"
@@ -27,9 +27,9 @@ native-tls = "0.1.5"
 serde = "1.0"
 serde_json = "1.0"
 serde_urlencoded = "0.5"
-tokio-core = { git = "https://github.com/redox-os/tokio-core" }
-tokio-io = { git = "https://github.com/redox-os/tokio" }
-tokio-tls = { git = "https://github.com/redox-os/tokio-tls" }
+tokio-core = { git = "https://gitlab.redox-os.org/redox-os/tokio-core" }
+tokio-io = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
+tokio-tls = { git = "https://gitlab.redox-os.org/redox-os/tokio-tls" }
 url = "1.2"
 uuid = { version = "0.6", features = ["v4"] }
 
