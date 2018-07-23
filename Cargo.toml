@@ -27,7 +27,7 @@ native-tls = "0.1.5"
 serde = "1.0"
 serde_json = "1.0"
 serde_urlencoded = "0.5"
-tokio-core = { git = "https://gitlab.redox-os.org/redox-os/tokio-core" }
+tokio = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
 tokio-io = { git = "https://gitlab.redox-os.org/redox-os/tokio" }
 tokio-tls = { git = "https://gitlab.redox-os.org/redox-os/tokio-tls" }
 url = "1.2"
